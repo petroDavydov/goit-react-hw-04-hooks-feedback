@@ -10,7 +10,7 @@ export default function FeedBackOptions({ options, onLeaveFeedback }) {
           type="button"
           value={option}
           key={idx}
-          onClick={e => onLeaveFeedback(e)}
+          onClick={()=> onLeaveFeedback(option)}
         >
           {option}
         </button>
