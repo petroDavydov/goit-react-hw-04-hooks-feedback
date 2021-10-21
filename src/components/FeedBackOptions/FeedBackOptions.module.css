@@ -1,0 +1,28 @@
+.buttonStyleCommon {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #f137a6 inset, 0 0 0 0 #f137a6;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px #f137a6;
+  color: #f137a6;
+}
